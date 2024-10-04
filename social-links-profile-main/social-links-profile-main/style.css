@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-weight: 400, 600, 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    width: 350px;
+    height: 590px;
+    margin-top: 3.5rem;
+    border-radius: .75rem;
+}
+
+p {
+    font-size: 14px;
+}
+
+h3 {
+  margin-top: 1.5rem;  
+}
+
+img {
+    border-radius: 50%;
+    width: 85px;
+    margin-top: 1.75rem;
+    place-content: center
+}
+
+@media (max-width: 540px) {
+    body {
+        background-color: hsl(0, 0%, 8%);
+        font-size: 14px;
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 12%);
+        width: 330px;
+        height: 585px;
+        padding: 1.25rem;
+        margin: 1.75rem;
+        margin-top: 4rem;
+    }
+
+    .buttons button {
+        max-width: 280px;
+        height: 45px;
+        margin-bottom: 1rem;
+        font-size: 15px;
+        margin-left: .25rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        margin-top: .5rem;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 1439px) {
+    body {
+        background-color: hsl(0, 0%, 8%);
+        font-size: 14px;
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 12%);
+        width: 350px;
+        height: 592px;
+        padding: 1.25rem;
+        margin: 1.75rem;
+        margin-top: 4rem;
+    }
+
+    .buttons button {
+        font-size: 15px;
+        max-width: 300px;
+        height: 45px;
+        margin-bottom: 1rem;
+        margin-left: .25rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        margin-top: .5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-color: hsl(0, 0%, 8%);
+        font-size: 14px;
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 12%);
+        width: 380px;
+        height: 600px;
+        margin: 5rem;
+        border-radius: .75rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+
+    .buttons button {
+        font-size: 17px;
+        max-width: 330px;
+        height: 45px;
+        margin-left: 25px;
+    }
+
+    img {
+        margin-top: 2.5rem;
+    }
+}
+
+.name_surname {
+    color: hsl(0, 0%, 100%);
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+}
+
+.information {
+    color: hsl(0, 0%, 100%);
+    margin-top: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttons button {
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 650;
+    font-size: 14px;
+    height: 45px;
+    width: 300px;
+    margin-bottom: 1rem;
+    border-radius: .50rem;
+    border: none;
+}
+
+.buttons button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
