@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500, 800;
+    border-radius: 1rem;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 7px 7px 0 0 hsl(0, 0%, 7%);;
+    width: 400px;
+    height: 500px;
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 325px;
+        height: 453px;
+        padding: 1.3rem;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .learning span {
+        margin-bottom: 5rem;
+    }
+
+    .date p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .foundations a {
+        font-size: 20px;
+    }
+
+    .paragraph p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .avatar p {
+        font-size: 100;
+        margin-left: .75rem;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 1439px) {
+    .container {
+        width: 350px;
+        height: 463px;
+        padding: 1.3rem;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: .75rem;
+        margin-bottom: 1rem;
+    }
+
+    .learning span {
+        margin-bottom: 5rem;
+    }
+
+    .date p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .foundations a {
+        font-size: 22.5px;
+    }
+
+    .paragraph p {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .avatar p {
+        margin-left: .75rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 350px;
+        height: 468px;
+        padding: 1.3rem;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: .75rem;
+        margin-bottom: 1rem;
+    }
+
+    .learning span {
+        margin-bottom: 5rem;
+    }
+
+    .date p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .foundations a {
+        font-size: 22.5px;
+    }
+
+    .paragraph p {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .avatar p {
+        margin-left: .75rem;
+    }
+}
+
+.learning span {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 13px;
+    font-weight: 900;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.date p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.foundations a {
+    color: hsl(0, 0%, 7%);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.foundations a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.paragraph {
+    color: hsl(0, 0%, 42%);
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: 30px;
+}
+
+.avatar p {
+    font-size: 14px;
+    font-weight: 900;
+}
